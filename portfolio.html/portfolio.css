@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+#menu {
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    color: white;
+    font-size: clamp(3rem, 8vw, 6rem);
+    display: block;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+}
+
+#menu-items {
+    color: white;
+    margin-left: clamp(4rem, 20vw, 45rem);
+    z-index: 2;
+}
+
+#menu-items:hover>.menu-item {
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+#menu-items:hover>.menu-item:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+#menu-background {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/22/New_York_City_at_night_HDR.jpg);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    background-position: center 40%;
+    background-size: 110vmax;
+    opacity: 0.2;
+    transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
+}
+
+#menu-items:hover~#menu-background {
+    background-size: 100vmax;
+    align-items: center;
+}
+
+.profile {
+    width: 800px;
+    height: auto;
+    box-shadow: rgba(119, 119, 250, 0.25) 0px 50px 100px -20px, rgba(172, 50, 50, 0.3) 0px 30px 60px -30px, rgba(125, 189, 252, 0.35) 0px 0px 6px 0px inset;
+}
+
+.hello {
+    width: 2000px;
+    font-size: 70px;
+    padding: 100px;
+}
+
+.intro {
+    height: 100vh;
+    width: 2230px;
+    max-width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutMe {
+    height: 100vh;
+    font-size: 50px;
+}
+
+.aboutHead {
+    text-align: center;
+}
+
+.cake {
+    width: 1300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.info {
+    font-size: 30px;
+    padding: 50px 0px 0px 100px;
+}
+
+.hobbies {
+    font-size: 35px;
+    color: darkkhaki;
+    padding: 50px 0px 0px 100px;
+}
+
+.Project {
+    height: 100vh;
+}
+
+.ProjectTitle {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 80px;
+}
+
+.paragraph {
+    width: 30%;
+    text-align: left;
+}
+
+.para {
+    font-size: 20px;
+    width: 800px;
+}
+
+.cardContainer {
+    padding-top: 70px;
+    width: 100%;
+    align-items: center;
+}
+
+.card {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.card1 {
+    float: left;
+    padding-left: 15%;
+}
+
+.card2 {
+    float: right;
+    padding-right: 15%;
+}
+
+.gitHub {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gitHub:hover {
+    color: chartreuse;
+    transition: all 0.1s ease;
+}
+
+.resHead {
+    height: 100vh;
+}
+
+.gif {
+    width: 800px;
+    height: 800px;
+    box-shadow: rgba(43, 148, 235, 0.74) 0px 48px 100px 0px;
+}
+
+;
+#resume {
+    height: 100vh;
+    background-color: rgb(39, 38, 38);
+}
+
+.ResHead {
+    font-size: 50px;
+    text-align: center;
+}
+
+.resumepdf {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.resumepdf:hover {
+    color: chartreuse;
+    transition: all 0.1s ease;
+}
+
+.footer {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.footerNav {
+    text-align: center;
+    width: 100%;
+    padding-top: 23%;
+}
+
+.footerNavItem {
+    font-size: 50px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-transform: uppercase;
+    opacity: 0.3;
+}
+
+.footerNavItem:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+span {
+    color: rgb(0, 47, 148);
+}
+
+h5 {
+    font-size: 40px;
+}
