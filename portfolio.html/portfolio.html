@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <title>My portfolio</title>
+</head>
+
+<body>
+    <div id="menu">
+        <div id="menu-items">
+            <a href="#home" class="menu-item">Home</a>
+            <a href=" #about " class="menu-item"> About Me </a>
+            <a href=" #Projects " class="menu-item"> Projects </a>
+            <a href=" #resume " class="menu-item"> Resume </a>
+
+        </div>
+        <div id="menu-background"> </div>
+    </div>
+
+
+
+
+    <div class="intro" id="home">
+        <img src="IMG_0686.jpg" class="profile" alt="photo of me in the woods">
+        <h1 class="hello">Hi, My name is <span class="auto-type"></span></h1>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Dang!"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
+
+
+
+    <div class="aboutMe" id="about">
+        <h2 class="aboutHead">About Me</h2>
+        <img src="cheesecake.jpg" class="cake" alt="Photo of Cheesecake">
+
+        <p class="info">
+            I am a freshman at the University of Mary Washington, and am majoring in Computer Science. I have experience with Java, Python, CSS, HTML and hope to learn more. I enjoy working with computers and technology, and have a passion for problem solving and
+            critical thinking. I enjoy the possibility of working in a dynamic work enviornment, and hope to be a software engineer in the future.
+        </p>
+        <p class="hobbies">
+            My hobbies include running, video games, reading, and I am a foodie, my favorite food being cheesecake.
+        </p>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+</body>
+<section id="Projects">
+    <div class="Project">
+        <h2 class="ProjectTitle">
+            Projects
+        </h2>
+        <a href="https://github.com/dangphung4/Dang-Phung-Portfolio.git" class="gitHub" target="_blank"> Github</a>
+
+
+        <div class="cardContainer">
+            <div class="card card1">
+                <h5>Connect 4</h5>
+                <IMG SRC="connectfourtest.gif" class="gif">
+                <p class="para">Learned to code a working connect four game by implementing checking algorithms and nested for loops for arrays in tandem with numpy and pygame</p>
+                </p>
+            </div>
+            <div class="card card2">
+                <h5>BattleShips</h5>
+                <IMG SRC="battleshiptest.gif" class="gif">
+                <p class="para">Programmed a battleships program game on Java by using nested for loops, arrays and guess and check algorithms </p>
+                </p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</section>
+
+<section id="resume">
+
+    <h2 class="ResHead">Down below is an attached PDF of my resume.</h2>
+    <a href="Resume..pdf" class="resumepdf" target="_blank">Resume PDF Version</a>
+    <p class="footer">DANG PHUNG</br> 25342 Whippoorwill Terrace </br> 703-223-3922 </br> Design by Dang </p>
+
+    <div class="footerNav">
+        <a href="#home" class="footerNavItem">Home</a>
+        <a href=" #about " class="footerNavItem"> About Me </a>
+        <a href=" #Projects " class="footerNavItem"> Projects </a>
+        <a href=" #resume " class="footerNavItem"> Resume </a>
+    </div>
+
+
+</section>
+
+
+</html>
